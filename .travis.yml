@@ -1,6 +1,9 @@
 # For more information about the configurations used
 # in this file, please see the Travis CI documentation:
 # https://docs.travis-ci.com
+language: node_js
+node_js:
+  - "8.6.0"
 
 after_success:
   - |
@@ -15,19 +18,8 @@ after_success:
                                      --commands "npm run build" \
                                      --commit-message "Update content from the \`dist\` directory [skip ci]"
 
-env:
-  global:
-    - secure: "uZ0R71TG9AR+kbfM9rwa8PPNr3f9E0C4OuA0s6g0Gq15bBcpVxPvus0/eJdW+O2NSzZE1GbzS//hBiP+chK/8X4DyNIRutlGk5RYdnTTFEaZo9jp0BvlvprUYlGgpprR/531zQ9ahkc0STwVvzurGzlcF4NNMiISAJJ1IdQZABc="
-
 git:
   depth: 10
-
-language: node_js
-
-node_js:
-  - 6
-  - 8
-  - 9
 
 dist: trusty
 sudo: false

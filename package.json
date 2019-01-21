@@ -47,13 +47,13 @@
   },
   "homepage": "https://html5boilerplate.com/",
   "license": "MIT",
-  "name": "html5-boilerplate",
+  "name": "berlearnin",
   "scripts": {
     "build": "gulp build",
     "test": "gulp archive && mocha --require babel-core/register --reporter spec --timeout 5000"
   },
   "version": "6.1.0",
-  "description": "A professional front-end template for building fast, robust, and adaptable web apps or sites.",
+  "description": "Connecting all the e-learning enthusiasts in Berlin",
   "files": [
     "CHANGELOG.md",
     "LICENSE.txt",
@@ -64,6 +64,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/h5bp/html5-boilerplate.git"
+    "url": "https://github.com/chudaol/berlearnin.git"
   }
 }
