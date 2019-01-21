@@ -1,26 +1,22 @@
 {
-    "title": "Landing Page",
-    "name": "startbootstrap-landing-page",
+    "title": "Berlearnin",
+    "name": "Connecting e-learning enthusiasts in Berlin",
     "version": "5.0.1",
-    "description": "An HTML landing page template built with Bootstrap",
+    "description": "Connecting e-learning enthusiasts in Berlin",
     "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
+        "learning",
+        "education",
+        "e-learning",
+        "digital learning",
+        "berlin",
+        "startup"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/landing-page",
+    "homepage": "berlearnin.herokuapp.com",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page/issues",
-        "email": "feedback@startbootstrap.com"
+        "email": "me@olgafilipova.com"
     },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "author": "Olga Filipova",
     "repository": {
         "type": "git",
         "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
@@ -42,6 +38,6 @@
         "gulp-sass": "4.0.2"
     },
     "scripts": {
-        "npm start": "node_modules/gulp/bin/gulp.js"
+        "start": "node_modules/gulp/bin/gulp.js"
     }
 }
