@@ -14,10 +14,6 @@ const expectedFilesInArchiveDir = [
 ];
 
 const expectedFilesInDistDir = [
-
-  '.editorconfig',
-  '.gitattributes',
-  '.gitignore',
   '.htaccess',
   '404.html',
   'browserconfig.xml',
