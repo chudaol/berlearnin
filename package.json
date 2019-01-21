@@ -1,68 +1,47 @@
 {
-  "devDependencies": {
-    "@alrra/travis-scripts": "^3.0.1",
-    "apache-server-configs": "^3.0.0",
-    "archiver": "^2.1.1",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.6.1",
-    "babel-register": "^6.26.0",
-    "del": "^3.0.0",
-    "eslint": "^4.19.1",
-    "eslint-config-recommended": "^2.0.0",
-    "eslint-plugin-mocha": "^5.0.0",
-    "glob": "^7.1.2",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-eslint": "^4.0.2",
-    "gulp-header": "^2.0.5",
-    "gulp-jscs": "^4.1.0",
-    "gulp-load-plugins": "^1.5.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.6.1",
-    "jquery": "3.3.1",
-    "mocha": "^5.1.1",
-    "modernizr": "3.6.0",
-    "normalize.css": "8.0.0",
-    "run-sequence": "^2.2.1",
-    "ssri": "^6.0.0",
-    "strip-json-comments": "^2.0.1",
-    "travis-after-all": "^1.4.5"
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  },
-  "engines": {
-    "node": "8.6.0"
-  },
-  "h5bp-configs": {
-    "directories": {
-      "archive": "archive",
-      "dist": "dist",
-      "src": "src",
-      "test": "test"
+    "title": "Landing Page",
+    "name": "startbootstrap-landing-page",
+    "version": "5.0.1",
+    "description": "An HTML landing page template built with Bootstrap",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://startbootstrap.com/template-overviews/landing-page",
+    "bugs": {
+        "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page/issues",
+        "email": "feedback@startbootstrap.com"
+    },
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+        "David Miller (http://davidmiller.io/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.6.3",
+        "bootstrap": "4.2.1",
+        "jquery": "3.3.1",
+        "simple-line-icons": "^2.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.3",
+        "gulp": "4.0.0",
+        "gulp-autoprefixer": "6.0.0",
+        "gulp-clean-css": "4.0.0",
+        "gulp-header": "2.0.7",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2"
+    },
+    "scripts": {
+        "npm start": "node_modules/gulp/bin/gulp.js"
     }
-  },
-  "homepage": "https://html5boilerplate.com/",
-  "license": "MIT",
-  "name": "berlearnin",
-  "scripts": {
-    "build": "gulp build",
-    "test": "gulp archive && mocha --require babel-core/register --reporter spec --timeout 5000",
-    "start": "cp -r dist/* ."
-  },
-  "description": "Connecting all the e-learning enthusiasts in Berlin",
-  "files": [
-    "CHANGELOG.md",
-    "LICENSE.txt",
-    "package.json",
-    "dist/",
-    "modernizr-config.json",
-    "README.md"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chudaol/berlearnin.git"
-  }
 }
