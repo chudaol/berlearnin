@@ -47,7 +47,7 @@
   "scripts": {
     "build": "gulp build",
     "test": "gulp archive && mocha --require babel-core/register --reporter spec --timeout 5000",
-    "start": "cd dist"
+    "start": "cp -r dist/* ."
   },
   "version": "6.1.0",
   "description": "Connecting all the e-learning enthusiasts in Berlin",
