@@ -1,6 +1,6 @@
 {
     "title": "Berlearnin",
-    "name": "Connecting e-learning enthusiasts in Berlin",
+    "name": "berlearnin",
     "version": "5.0.1",
     "description": "Connecting e-learning enthusiasts in Berlin",
     "keywords": [
@@ -19,7 +19,7 @@
     "author": "Olga Filipova",
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
+        "url": "https://github.com/chudaol/berlearnin.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.6.3",
