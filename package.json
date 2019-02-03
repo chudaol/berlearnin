@@ -1,6 +1,6 @@
 {
-  "title": "Berlearnin",
-  "name": "berlearnin",
+  "title": "Berlearn",
+  "name": "berlearn",
   "version": "5.0.1",
   "description": "Connecting e-learning enthusiasts in Berlin",
   "keywords": [
@@ -11,7 +11,7 @@
     "berlin",
     "startup"
   ],
-  "homepage": "berlearnin.herokuapp.com",
+  "homepage": "berlearn.herokuapp.com",
   "bugs": {
     "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page/issues",
     "email": "me@olgafilipova.com"
