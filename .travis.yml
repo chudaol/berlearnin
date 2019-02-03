@@ -6,9 +6,13 @@ node_js:
 install:       npm install
 script:
   - npm test
-  - gulp
+  - gulp dist
 cache:
   directories:
     - node_modules
 notifications:
   email:       false
+deploy:
+  provider: firebase
+  token:
+    secure: "YOUR ENCRYPTED token"

@@ -115,5 +115,67 @@ function watchFiles() {
 
 gulp.task("default", gulp.parallel('vendor', css));
 
+gulp.task("dist", function (cb) {
+  // Bootstrap
+  gulp.src([
+    './node_modules/bootstrap/dist/**/*',
+    '!./node_modules/bootstrap/dist/css/bootstrap-grid*',
+    '!./node_modules/bootstrap/dist/css/bootstrap-reboot*'
+  ])
+    .pipe(gulp.dest('./public/vendor/bootstrap'))
+
+  // Font Awesome
+  gulp.src([
+    './node_modules/@fortawesome/**/*',
+  ])
+    .pipe(gulp.dest('./public/vendor'))
+
+  // jQuery
+  gulp.src([
+    './node_modules/jquery/dist/*',
+    '!./node_modules/jquery/dist/core.js'
+  ])
+    .pipe(gulp.dest('./public/vendor/jquery'))
+
+  // jQuery Easing
+  gulp.src([
+    './node_modules/jquery.easing/*.js'
+  ])
+    .pipe(gulp.dest('./public/vendor/jquery-easing'))
+
+  // Simple Line Icons
+  gulp.src([
+    './node_modules/simple-line-icons/fonts/**',
+  ])
+    .pipe(gulp.dest('./public/vendor/simple-line-icons/fonts'))
+
+  gulp.src([
+    './node_modules/simple-line-icons/css/**',
+  ])
+    .pipe(gulp.dest('./public/vendor/simple-line-icons/css'))
+
+  gulp.src([
+    './index.html',
+  ])
+    .pipe(gulp.dest('./public/'))
+  gulp.src([
+    './css/**/*',
+    './img/*',
+    './scss/*'
+  ])
+    .pipe(gulp.dest('./public/css/'))
+  gulp.src([
+    './img/*',
+    './scss/*'
+  ])
+    .pipe(gulp.dest('./public/img/'))
+  gulp.src([
+    './scss/*'
+  ])
+    .pipe(gulp.dest('./public/scss/'))
+
+  cb();
+})
+
 // dev task
 gulp.task("dev", gulp.parallel(watchFiles, browserSync));

@@ -37,6 +37,7 @@
     "simple-line-icons": "^2.4.1"
   },
   "scripts": {
+    "build": "node_modules/gulp/bin/gulp.js dist",
     "start": "node_modules/gulp/bin/gulp.js && http-server"
   }
 }
