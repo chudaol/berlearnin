@@ -14,6 +14,7 @@ cache:
 notifications:
   email:       false
 deploy:
+  skip_cleanup: true
   provider: firebase
   token:
     secure: "pM1tRQm4r7bwCCe4ebnRZrf87F9YD0S+YycPv4OLdBs3eVCzt3SHYhbxX1o8eSwHJVkvKIynCPfzXGKIQq3b+rmQdqpG6f15WNubRpg/QfBSaSfe6Urvwj+LkX+uDThernyBJpkXOpczk+NDwjc4LpFJmg6pqjBJdpgd/V+CPE2zig2nxtdvS5MxUKGaY83jt1MB7YwyS1kjuscef/Jnd5+R3KBrOT8srZANXH+Mb/ykkrfSYGfgM59oyJCbmoAWI45BRZwJPlr1y/LgyOLHyQh4eWNzP28RTYvVC2TcfOj1QuPa+g5hJBKS/EoQkmaMdmWcDFqADI9aHkvMMcY6VpVLDEZ42VOYvjaGvQVlOZy9EDlp8EzU/+dmItwDM0ooM++4/msFlD9e2Dpv8XMLL/OUv8osJPul0MWbwZ3v0b5KIx2JgZB4M2f9PA4wooiJuziF828GpTQ82dehb/ZQ3Zv6Jc6JHWx91+MvURVShJBev3OTItYDzet8jyxuspl2R0uUcPrX6nhjSpTATWZai0Rz0tBPNmSKTmq9Vd1f/Xy4iTnq3GqKgAp5BC5qR3oeHsMerpV6qNnWlvYJRHTcw3AfWT3TTXnuBD7bZfP8XHE0puA7vtMdVg5s1WKkAtuSpQR/fBFZ4l4qrOwu10H0mMfhiMdXg2sjdI+xg2Jr32Y="
