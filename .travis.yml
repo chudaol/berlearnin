@@ -3,6 +3,7 @@ git:
   depth:       3
 node_js:
   - "node"
+  - "8.6.0"
 install:       npm install
 script:
   - npm test
