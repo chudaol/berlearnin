@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Berlearnin v5.0.1 (berlearnin.herokuapp.com)
+ * Start Bootstrap - Berlearn v5.0.1 (berlearn.herokuapp.com)
  * Copyright 2013-2019 Olga Filipova
- * Licensed under  (https://github.com/BlackrockDigital/berlearnin/blob/master/LICENSE)
+ * Licensed under  (https://github.com/BlackrockDigital/berlearn/blob/master/LICENSE)
  */
 
 body {
@@ -128,4 +128,16 @@ footer.footer {
 
 .red {
   color: red;
+}
+
+.partners img {
+  max-width: 100px;
+}
+
+.about .jumbotron {
+  margin-bottom: 0;
+}
+
+.about .jumbotron p.lead:last-child {
+  margin-bottom: 0;
 }
