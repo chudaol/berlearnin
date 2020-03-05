@@ -159,6 +159,10 @@ gulp.task("dist", function (cb) {
   ])
     .pipe(gulp.dest('./public/'))
   gulp.src([
+    './mentorship.html',
+  ])
+    .pipe(gulp.dest('./public/'))
+  gulp.src([
     './css/**/*',
     './img/*',
     './scss/*'
